@@ -1,0 +1,9 @@
+exports.config =
+    discord:
+        email: ''
+        password: ''
+    triggers: # optional, custom triggers for recordings
+        record: ''
+        stop: ''
+    recordLocation: './' # where to record to, relative or absolute
+    users: ['user ids for privileged users']
